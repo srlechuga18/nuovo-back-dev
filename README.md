@@ -77,6 +77,11 @@ npx supabase init
 npx supabase start
 ```
 
+### Stop Local supabase
+```
+npx supabase stop
+```
+
 ## Sync DB Structure
 
 ### Sync from remote to local
@@ -131,5 +136,3 @@ npx supabase db dump --data-only -f supabase/seed.sql --db-url postgresql://post
 ```
 npx supabase db reset
 ```
-
-### Sync from local to remote
