@@ -136,3 +136,6 @@ npx supabase db dump --data-only -f supabase/seed.sql --db-url postgresql://post
 ```
 npx supabase db reset
 ```
+
+## To Do check on deployed
+Enabling email and password based authentication
